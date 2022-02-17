@@ -12,3 +12,4 @@ export class Docente extends Usuario{
         super(id, nome, email, data_nasc, turma_id)
     }
 }
+

@@ -1,0 +1,19 @@
+GET http://localhost:3003/turma
+
+### 
+
+PUT http://localhost:3003/turma/modulo
+Content-Type: 
+
+###
+
+POST http://localhost:3003/estudante
+Content-Type: application/json
+
+{
+    "nome": "Guaribinha JR",
+    "email": "guariba2@monkey.com",
+    "data_nasc": "01/02/2021",
+    "turma_id": "1645109738351",
+    "hobbies": ["arrebentar fios", "acabar com a luz", "acabar com a internet"]
+}
